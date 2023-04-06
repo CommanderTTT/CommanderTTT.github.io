@@ -1,0 +1,404 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+    background-color: #393f4d;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header,
+nav,
+footer {
+    border-radius: 10px;
+}
+
+header {
+    background-color: #cf5529;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+nav {
+    background-color: #ffde22;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+nav>a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: orangered;
+}
+
+#article1,
+#article2 {
+    background-color: #6cc5e6;
+    width: 50%;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    border-radius: 10px;
+
+}
+
+.main_img {
+    border-style: ridge;
+    border-width: 8px;
+    padding: 0px;
+    margin: 5px;
+
+}
+
+main~footer {
+    background-color: #393f4d;
+}
+
+footer {
+    height: 15%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+#main1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#main2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+td {
+    padding: 15px;
+}
+
+table,
+td,
+tr {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    padding: 5px;
+}
+
+.hobbyli {
+    padding: 10px;
+}
+
+
+
+#c4d_img {
+    border-style: ridge;
+    border-width: 7px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#dal_img {
+    border-style: solid;
+    border-width: 7px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#skillarticle1>img {
+    border-style: inset;
+    border-width: 5px;
+    padding: 3px;
+
+}
+
+a[href="https://leetcode.com/"] {
+    color: red;
+}
+
+
+#form {
+    background-color: #819C52;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+body, html {
+    height: 100%;
+}
+
+
+
+.heroimage { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/hero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+
+.herotext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#photogallery {
+    background-color: #cf5529;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.gallery {
+    width: 500px;
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+#gallerytext {
+    padding-top: 20px;
+}
+
+#skillarticle1 {
+    background-color: #6cc5e6;
+    width: 50%;
+    padding: 10px;
+
+}
+
+#skillarticle2 {
+    background-color: #6cc5e6;
+    width: 50%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #393f4d;
+    height: 15%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+#homearticle1 {
+    background-color: #ffde22;
+    width: 50%;
+
+
+}
+
+#homearticle2 {
+    background-color: #6cc5e6;
+    width: 50%;
+
+}
+
+#button {
+    text-align: center;
+    background-color: #52b69a;
+    padding: 10px;
+}
+
+#button1 {
+    text-align: center;
+    background-color: #52b69a;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1400px){
+
+    #main1 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #main2 {
+        display: flex;
+        flex-direction: row;
+   
+    }
+
+    #homearticle1>img {
+        max-width: 250px;
+        max-height: 300px;
+    }
+
+    img {
+        max-width: 500px;
+        max-height: 300px;
+    }
+    #homearticle1, #homearticle2 {
+        
+        width: 50%;
+    }
+
+    #homearticle1 {
+        text-align: center;
+    }
+    
+    iframe, video{
+        max-width: 600px;
+        max-height: 335px;
+    }
+    
+    #article1 {
+        margin-right: 10px;
+    }
+
+}
+@media screen and (max-width: 1400px){
+
+    #main1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #main2 {
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+    #homearticle1>img {
+        max-width: 250px;
+        max-height: 300px;
+    }
+
+    img {
+        max-width: 480px;
+        max-height: 250px;
+    }
+    #homearticle1, #homearticle2 {
+        
+        width: 100%;
+    }
+
+    #homearticle1 {
+        text-align: center;
+    }
+    
+    iframe, video{
+        max-width: 500px;
+        max-height: 260px;
+    }
+    
+    #article1, #article2 {
+        width: 100%;
+        
+    }
+
+    #article1 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    #main1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #main2 {
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+    #homearticle1>img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 160px;
+    }
+    #homearticle1, #homearticle2 {
+        
+        width: 100%;
+    }
+
+    #homearticle1 {
+        text-align: center;
+    }
+    
+    iframe, video{
+        max-width: 300px;
+        max-height: 160px;
+    }
+    
+    #article1, #article2 {
+        width: 100%;
+        
+    }
+
+    #article1 {
+        margin-bottom: 10px;
+    }
+
+}
