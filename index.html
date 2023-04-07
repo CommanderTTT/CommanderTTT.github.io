@@ -13,7 +13,7 @@
 <body>
   <div class="heroimage">
     <div class="herotext">
-      <h1>Hello, I am Dehua</h1>
+      <h1 id="title">Hello, I am Dehua</h1>
       <h2>I am an Effects technical director</h2>
     </div>
   </div>
@@ -28,7 +28,7 @@
     <h2>Choose your favorite color style</h2>
     <button id="color1">Color1</button>
     <button id="color2">Color2</button>
-    <button id="color3">Color3</button>    
+    <button id="color3">Color3</button>
   </div>
 
 
@@ -84,8 +84,19 @@
         </tr>
       </table>
     </article>
-
+    
   </main>
+  <div id="job">
+    <h2>Choose your job to get little suggestion from me</h2>
+    <input type="radio" id="option1" name="option" value="option1" checked onclick="updateTitle()">
+    <label for="option1">programmer</label>
+    <input type="radio" id="option2" name="option" value="option2" onclick="updateTitle()">
+    <label for="option2">Effects TD</label>
+    <input type="radio" id="option2" name="option" value="option3" onclick="updateTitle()">
+    <label for="option3">Other</label>
+    <p id="answer">Answer: You can go to skill page to see some links of website, that is a very nice way to improve!</p>
+  </div>
+
   <script src="./home.js"></script>
 
 

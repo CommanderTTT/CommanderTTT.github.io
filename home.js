@@ -23,4 +23,18 @@ function change_color3() {
     document.getElementById("button").style.backgroundColor = "#52b69a";
 }
 
+function updateTitle() {
+    var option1 = document.getElementById("option1");
+    var option2 = document.getElementById("option2");
+    var option3 = document.getElementById("option3");
+    var answer = document.getElementById("answer");
+    if (option1.checked) {
+      answer.innerHTML = "Answer: You can go to skill page to see some links of website, that is a very nice way to improve!";
+    } else if (option2.checked) {
+      answer.innerHTML = "Answer: Great! You can go to project page to submit your email and contact me to get more details!";
+    } else {
+      answer.innerHTML = "Answer: You can visit all of my pages to know the career of programmer and Effects TD! If you are interested about it, you can contact me in project page.";
+    }
+  }
+
 alert("Welcome to my website");  //When visitor go to homepage, they will see it

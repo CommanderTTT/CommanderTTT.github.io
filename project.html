@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <h1>Hello, I am Dehua</h1>
+    <h1 id="title">Hello, I am Dehua</h1>
   </header>
   <nav>
     <a href="./index.html">Homepage</a>
@@ -46,15 +46,15 @@
   </main>
 
   <div id="form">
+    <p>Gender: </p>
+    <button id="option1" onclick="updateTitle('male')">Male</button>
+    <button id="option2" onclick="updateTitle('female')">Female</button>
     <form action="#" method="post">
       <label for="name">Name:</label><br>
       <input type="text" name="name" id="name"><br>
 
       <label for="email">Email:</label><br>
       <input type="text" name="email" id="email"><br>
-
-      <label for="age">Age:</label><br>
-      <input type="number" name="age" id="age"><br>
 
       <label for="message">Message:</label><br>
       <textarea name="message" id="message" cols="30" rows="5"></textarea>
